@@ -44,25 +44,14 @@ mongoose.connect(process.env.MONGO_URI, {
     })
 //app.post('/candidates', (CandidateRoute))
 
+app.get('/', (req, res) => {
+    res.send('Api is running successfully')
+})
 app.use('/auth', UserRoutes)
 app.use('/admin', AdminRoutes)
-//app.use('/admin', DeleteAdmin)
-//app.use('/admin', RegisterAdmin)
-//app.use('/admin', GetAdmin)
-//app.use('/admin', GetAdmins)
 app.use('/party', PartyRoute)
-//app.use('/party', GetParties)
-//app.use('/party', GetParty)
-//app.use('/party', DeleteParty)
-//app.use('/password', TestPassword)
 app.use('/candidates', CandidateRoutes)
-//app.use('/candidates', PostCandidate)
-//app.use('/candidates', GetCandidatesCategory)
-//app.use('/candidates', GetCandidates)
-//app.use('/candidates', GetCandidate)
 app.use('/vote', VoteRoutes)
-//app.use('/vote', AllowToVote)
-//app.use('/vote', VerifyVote)
 
 const PORT = process.env.PORT || 3001
 app.listen(PORT, () => {
