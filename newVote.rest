@@ -1,0 +1,7 @@
+POST http://localhost:3001/vote/votes 
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDhjMzM0NWNhZTgzZjZiZTRkYTZmY2EiLCJpYXQiOjE3MjEzNTQ4NzQsImV4cCI6MTcyMTM1ODQ3NH0.3ZLwwMnuCDedyyY2hNRghg_jPwXKsdPya0pLWb_D4Ws
+Content-Type: application/json
+
+{
+    "selectedOptions": ["6699c6f3832d6594aa81e1f5", "6699c714832d6594aa81e1fd","6699c6d7832d6594aa81e1ee"]
+}

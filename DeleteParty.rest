@@ -1,0 +1,1 @@
+DELETE  http://localhost:3001/party/66985259b18f3dea756cc3f7

@@ -1,0 +1,6 @@
+GET   'https://registration-9784.onrender.com/api/648c3345cae83f6be4da6fca'
+Content-Type: application/json
+
+{
+    "_id" : "648c3345cae83f6be4da6fca"
+}

@@ -1,0 +1,2 @@
+GET  http://localhost:3001/vote/voters
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmEyYThmN2E5NDQwMzgyZTRjNDU1ODgiLCJpYXQiOjE3MjE5MzYxNDQsImV4cCI6MTcyMTkzOTc0NH0.f4y-B_BZDgFZR5eQ2qxlJeJJAJmpoD2seYJOgQ20deI

@@ -1,0 +1,2 @@
+DELETE  http://localhost:3001/candidates/Chairman/669c413a5cf51d546dd5a86d
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OTFhZDMxN2VmNzY2NTEzMzQxZmI1MCIsImlhdCI6MTcyMTYxNjk1NCwiZXhwIjoxNzI0MjA4OTU0fQ.QX3c9YIMcH9jBNdqjWynwFwFoF_kNkf83sMNWAIgHCo

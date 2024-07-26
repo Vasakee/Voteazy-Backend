@@ -1,0 +1,8 @@
+POST http://localhost:3001/party/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OTFiYmU0MmMxOTNlNTQyMzNiNGQ3MiIsImlhdCI6MTcyMTM0NDM4OSwiZXhwIjoxNzIzOTM2Mzg5fQ.cKVhqiK0Uzts9fhD7IdPgiRqEcYFpTL6bqsmbEyBLmc
+
+{
+    "name" : "Peoples Democratic Party",
+    "initials" : "PDP"
+}

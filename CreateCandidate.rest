@@ -1,0 +1,10 @@
+POST http://localhost:3001/candidates/Chairman
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YTQwN2RlM2IzYjg2N2Y5ODlmMDQzZCIsImlhdCI6MTcyMjAyNTk1MSwiZXhwIjoxNzI0NjE3OTUxfQ.L8Lp2X_cvMBbwNn31CtW6zkoj0KhkNItp_0bPVAom-s
+
+{
+ "name": "Elliot",
+ "party": "Labour Party",
+ "state": "Plateau",
+ "localGovernment": "Mangu"
+}
