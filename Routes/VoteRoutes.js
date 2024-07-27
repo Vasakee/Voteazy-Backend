@@ -5,6 +5,6 @@ const VoteRoutes = express.Router()
 
 VoteRoutes.post('/login', AuthVoter)
 VoteRoutes.get('/voters', authMiddleware, AllowToVote)
-VoteRoutes.get('/votes', authMiddleware, VerifyVote)
+VoteRoutes.post('/votes', authMiddleware, VerifyVote)
 
 module.exports = VoteRoutes
